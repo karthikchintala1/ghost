@@ -1,4 +1,3 @@
-
 <head>
     <meta charset="utf-8">
 
@@ -36,7 +35,7 @@ We know that first impressions are important, so we've populated your new site w
     <meta name="twitter:data1" content="Ghost">
     <meta name="twitter:label2" content="Filed under">
     <meta name="twitter:data2" content="Getting Started">
-    <meta name="twitter:site" content="tryghost">
+    <meta name="twitter:site" content="@tryghost">
     <meta name="twitter:creator" content="tryghost">
     
     <script type="application/ld+json">
@@ -46,7 +45,12 @@ We know that first impressions are important, so we've populated your new site w
     "publisher": {
         "@type": "Organization",
         "name": "Code Rethinked",
-        "logo": "https://casper.ghost.org/v1.0.0/images/ghost-logo.svg"
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
     },
     "author": {
         "@type": "Person",
